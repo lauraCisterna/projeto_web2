@@ -12,10 +12,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh
+    height: 100vh;
 }
 
-.quizConteiner{
+.quizContainer{
     background-color: #ffff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -39,23 +39,17 @@ body{
 .questoes{
     font-size: 1rem;
     margin-bottom: 20px;
-    color: black;
+    color:black;
 
+}
+.cores{
+    margin: 10px;
 }
 #titulo{
     font-size: 1.5rem;
     margin-bottom: 50px;
     margin-top: 30px;
     color: #4b4fb0;
-}
-.opcoes label{
-    display: block;
-    font-size: 0.95rem;
-    color: black;
-    margin: 10px 0;
-}
-.opcoes input{
-    margin-right: 10px;
 }
 .botao{
     background-color: #3a3f8c;
